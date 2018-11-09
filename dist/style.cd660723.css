@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    width: 80%;
+    margin: auto;
+}
+
+#content {
+    display: flex;
+}
+#content #recent-links {
+    display: flex-grow;
+    flex-grow: 2;
+    margin-right: 40px;
+}
+#content #recent-links article{
+    display: flex;
+}
+#content #recent-links article div:nth-child(2) {
+    padding: 0px 0px 0px 20px;
+    position: relative;
+}
+article{
+    margin: 0px 0px 10px 0px;
+}
+article h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+article p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+}
+#recent-links article img {
+    height: 100px;
+    width: 100px;
+}
+#content  #recent-links time{
+    color: blue;
+    position: absolute;
+    bottom: 0px;
+}
+
+#content #most-viewed article time{
+    color: blue;
+    top: 0px;
+    
+}
+#content #most-viewed {
+    display: flex-grow; 
+    flex-grow: 1;
+    flex-basis: 195px;
+
+}
+#content #most-viewed  div{
+    display: flex-grow; 
+    flex-grow: 1;
+    background-image: url("https://unsplash.it/200/200");           
+}
+ #most-viewed article #tapp{
+     height: 200px;
+     width: 200px;
+}
+#most-viewed article #tapp h2{
+                    padding-top: 120px;
+                    color: #fff;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                   }
+                   #most-viewed article #tapp p{
+                    color: #fff;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                   }
+
